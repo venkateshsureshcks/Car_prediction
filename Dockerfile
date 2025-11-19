@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Run Flask app
-CMD ["flask", "--app", "Car_pred.py", "run", "--host=0.0.0.0"]
+CMD ["flask", "--app", "Prediction.Car_pred", "run", "--host=0.0.0.0", "--port=80"]
